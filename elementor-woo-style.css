@@ -1,0 +1,33 @@
+selector .flex-control-nav{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    gap: 10px
+}
+
+selector .woocommerce-product-gallery{
+    display: flex;
+    flex-direction: row-reverse;
+    gap:10px;
+}
+selector .flex-viewport{
+    width:100%;
+}
+
+selector ol li{
+    width:100% !important;
+}
+
+@media screen and (max-width:1024px){
+    selector .woocommerce-product-gallery{
+    display: block;
+    
+    gap:5px;
+}
+selector .flex-control-nav{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    padding-top: 10px !important;
+}
+}
